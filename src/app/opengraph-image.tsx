@@ -26,7 +26,7 @@ export default async function Image() {
           overflow: "hidden",
         }}
       >
-        {/* Background gradient with Farcaster purple and electric blue */}
+        {/* Background gradient with Celo green and vibrant accent */}
         <div
           style={{
             position: "absolute",
@@ -34,7 +34,7 @@ export default async function Image() {
             left: 0,
             right: 0,
             bottom: 0,
-            background: "linear-gradient(135deg, #8A63D2 0%, #1E90FF 100%)",
+            background: "linear-gradient(135deg, #35D07F 0%, #FBCC5C 100%)",
             opacity: 0.9,
           }}
         />
@@ -48,7 +48,7 @@ export default async function Image() {
             right: 0,
             bottom: 0,
             backgroundImage:
-              "radial-gradient(circle at 20% 80%, rgba(138, 99, 210, 0.4) 0%, transparent 50%), radial-gradient(circle at 80% 20%, rgba(30, 144, 255, 0.4) 0%, transparent 50%)",
+              "radial-gradient(circle at 20% 80%, rgba(53, 208, 127, 0.4) 0%, transparent 50%), radial-gradient(circle at 80% 20%, rgba(251, 204, 92, 0.4) 0%, transparent 50%)",
           }}
         />
 
@@ -155,12 +155,12 @@ export default async function Image() {
             {PROJECT_DESCRIPTION}
           </p>
 
-          {/* Farcaster branding element */}
+          {/* Platform branding element */}
           <div
             style={{
               display: "flex",
               alignItems: "center",
-              gap: "16px",
+              gap: "24px",
               padding: "20px 40px",
               backgroundColor: "rgba(255, 255, 255, 0.2)",
               borderRadius: "100px",
@@ -169,6 +169,20 @@ export default async function Image() {
               boxShadow: "0 8px 32px rgba(0, 0, 0, 0.2)",
             }}
           >
+            {/* Celo icon */}
+            <svg
+              width="32"
+              height="32"
+              viewBox="0 0 32 32"
+              fill="none"
+              style={{
+                display: "block",
+              }}
+            >
+              <circle cx="16" cy="16" r="16" fill="#35D07F"/>
+              <circle cx="16" cy="16" r="10" fill="none" stroke="white" strokeWidth="2"/>
+              <circle cx="16" cy="16" r="6" fill="none" stroke="white" strokeWidth="2"/>
+            </svg>
             {/* Farcaster icon */}
             <svg
               width="32"
@@ -194,7 +208,7 @@ export default async function Image() {
                 letterSpacing: "-0.5px",
               }}
             >
-              Farcaster Mini App
+              Celo × Farcaster
             </span>
           </div>
         </div>
